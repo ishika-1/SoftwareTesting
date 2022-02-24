@@ -1,0 +1,48 @@
+@startuml COGNICHAT
+
+actor "User" as user
+actor "Chat Bot" as bot
+
+left to right direction
+skinparam packageStyle rectangle
+
+
+rectangle COGNICHAT{
+
+(Login) as login
+(Forgot Password) as forgot
+(Verify Password) as verify
+(Set Up Profile) as profile
+(Account Balance) as balance
+(Buy Product) as buy
+(Total Expenditure) as tot
+(Add Expenditure) as add
+(Compare Price & Balance) as compare
+(Display Total Expenditure) as disp
+(Show Expenses) as show
+(Logout) as logout
+
+}
+
+login ..> forgot : extend
+login ..> verify : include
+buy ..> compare : include
+tot ..> disp : extend
+
+user -- login
+user -- profile
+user -- balance
+user -- buy
+user -- tot
+user -- add
+user -- show
+user -- logout
+
+verify -- bot
+compare -- bot
+disp -- bot
+add -- bot
+logout -- bot
+
+
+@enduml

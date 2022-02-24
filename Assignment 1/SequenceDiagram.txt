@@ -1,0 +1,53 @@
+@startuml SequenceDiagram
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+title COGNICHAT - Financial Chatbot
+actor User as A
+participant "LOGIN PORTAL" as B
+participant "CHATBOT INTERFACE" as C
+participant "ENGINE" as D
+participant "DATABASE SERVER" as E
+
+activate B#LightGray
+activate E#LightGray
+B -> E : Login Credentials
+E --> B : Authentication Success Status
+deactivate E
+
+A -> B : Login()
+A -> B : Setup Profile()
+A -> B : Reset Password ()
+B --> A : Valid
+B --> A : Invalid
+
+group#Gold #LightGreen SignUp [Success]
+    B -> A: Authentication Accepted
+else #LightPink Failure
+    B -> A: Authentication Rejected
+end
+deactivate B
+
+|||
+
+A -> C : User Query
+activate C#LightGray
+activate D#LightGray
+C -> D : Can/Cannot buy query
+C -> D : Add Expenditure()
+C -> D : Show Expenses()
+C -> D : Display Account Balance()
+C -> D : Display Total Expenditure()
+
+activate E#LightGray
+D -> E : Search Database
+D -> E : Update Database
+E --> D : Retrieve Data
+deactivate E
+
+D --> C : Return data for Response
+deactivate D
+
+C --> A : Chatbot Reply
+deactivate C
+
+@enduml
