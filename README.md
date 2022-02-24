@@ -1,17 +1,13 @@
 # Software Testing
 
-### Lab Assignments
+This repository contains all the assignment made in Software Testing Lab.
 
-#### Name: Ishika Agarwal
+Name - Ishika Agarwal
 
-#### SID: 18103034
+SID - 18103034
 
-### Assignment 1
+## Assignment - 1 
+Create Use-Case and Sequence Diagram using PlantUML tool
 
-Assignment 1: Create Use-case and Sequence diagram using PLantUML tool. 
-
-### Assignment 2
-
-Assignment 2: Create README file using Mark-down language and upload UML diagrams (Use-case and Squence) on README page.
-
-
+## Assignment - 2
+Create README file using Mark down language and upload UML diagrams on README page.
