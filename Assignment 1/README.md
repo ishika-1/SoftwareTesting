@@ -1,9 +1,9 @@
 # Assignment 1
 
+### 18103034 Ishika Agarwal
+
 Assignment 1: Create Use-case and Sequence diagram using PLantUML tool. 
 
-
-### 18103034 Ishika Agarwal
 
 ## Use-Case Diagram Using PlantUML
 
