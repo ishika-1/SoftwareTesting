@@ -7,10 +7,9 @@ Assignment 1: Create Use-case and Sequence diagram using PLantUML tool.
 
 ## Use-Case Diagram Using PlantUML
 
-### Diagram
 ![alt Image](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/UseCaseDiagram.png)
 
-### Code
+### Use Case Diagram Code
 ```
 @startuml COGNICHAT
 
@@ -66,10 +65,9 @@ logout -- bot
 
 ## Sequence Diagram Using PlantUML
 
-### Diagram
 ![alt Image](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/SequenceDiagram.png)
 
-### Code
+### Sequence Diagram Code
 ```
 @startuml SequenceDiagram
 skinparam style strictuml
