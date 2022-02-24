@@ -1,6 +1,6 @@
 # Software Testing
 
-This repository contains all the assignment made in Software Testing Lab.
+This repository contains the assignments made in Software Testing Lab.
 
 Name - Ishika Agarwal
 
