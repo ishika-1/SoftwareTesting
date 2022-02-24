@@ -5,7 +5,9 @@
 Assignment 1: Create Use-case and Sequence diagram using PLantUML tool. 
 
 
-## Use-Case Diagram Using PlantUML
+## Use-Case Diagram for Cognichat Using PlantUML
+
+- **[Use Case Diagram](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/UseCaseDiagram.txt)**
 
 ![alt Image](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/UseCaseDiagram.png)
 
@@ -64,6 +66,8 @@ logout -- bot
 
 
 ## Sequence Diagram Using PlantUML
+
+- **[Sequence Diagram](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/SequenceDiagram.txt)**
 
 ![alt Image](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/SequenceDiagram.png)
 
