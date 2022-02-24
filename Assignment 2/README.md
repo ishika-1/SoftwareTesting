@@ -65,7 +65,7 @@ logout -- bot
 
 
 
-## Sequence Diagram Using PlantUML
+## Sequence Diagram for Cognichat Using PlantUML
 
 - **[Sequence Diagram](https://github.com/ishika-1/SoftwareTesting/blob/main/Assignment%201/SequenceDiagram.txt)**
 
